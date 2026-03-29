@@ -1,0 +1,1 @@
+Illegal operations that are made in a file that result in abnormality

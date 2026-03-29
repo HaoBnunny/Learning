@@ -1,0 +1,2 @@
+These are programs included in your 'compiler', gcc/clang, that do the function of pre-processing.
+These programs allow for you to edit your code before the actual compilation happens by making a '.i' human-readable file.
