@@ -1,7 +1,7 @@
 # Learning
 Setting this up as a fallback reference to learning programming languages in a simple infographic
 ## Languages it will cover
-- C
+- [C](C/Assets/C.canvas)
 - C++
 - Python
 - Java

@@ -13,17 +13,17 @@
 			"color":"6",
 			"label":"Errors"
 		},
-		{"id":"5d54eefc605b8caf","type":"group","x":6040,"y":1480,"width":4120,"height":2163,"color":"1","label":"Run-time Errors"},
+		{"id":"5d54eefc605b8caf","type":"group","x":6040,"y":1480,"width":2880,"height":2163,"color":"1","label":"Run-time Errors"},
+		{"id":"d23e9209677d3594","type":"group","x":8920,"y":1480,"width":1480,"height":760,"color":"#a5c6ca","label":"Compile Time Errors"},
 		{"id":"e57e7f4fdf0e4069","type":"file","file":"C/Pre-Processing.md","x":1320,"y":-80,"width":380,"height":395,"color":"#959ab1"},
-		{"id":"685b6e0f07fad77c","type":"file","file":"Flags.md","x":460,"y":480,"width":500,"height":680,"color":"#c1a5cf"},
 		{"id":"024487b7ac5bf7ee","type":"file","file":"C/Linking.md","x":1320,"y":1645,"width":380,"height":740,"color":"#a6b2c9"},
 		{"id":"199284694ad20906","type":"file","file":"C/Assembly.md","x":1320,"y":974,"width":380,"height":533,"color":"#8e9ca9"},
 		{"id":"e81fa4466730959d","type":"file","file":"C/Compiling.md","x":1320,"y":508,"width":380,"height":312,"color":"#948ea4"},
-		{"id":"ac2134da0299ceb6","type":"file","file":"Dynamic Linking.md","x":840,"y":2385,"width":480,"height":200,"color":"#a18daa"},
+		{"id":"ac2134da0299ceb6","type":"file","file":"C/Dynamic Linking.md","x":840,"y":2385,"width":480,"height":200,"color":"#a18daa"},
 		{
 			"id":"0ffcf165a55e1df6",
 			"type":"file",
-			"file":"Static Linking.md",
+			"file":"C/Static Linking.md",
 			"styleAttributes":{
 				"border":null
 			},
@@ -33,35 +33,6 @@
 			"height":200,
 			"color":"#a18daa"
 		},
-		{"id":"3fd7bc5616c74267","type":"file","file":"C/C compiler.md","x":2680,"y":495,"width":500,"height":338,"color":"#9796b0"},
-		{"id":"b442730f1dbd39fc","type":"file","file":"GCC.md","x":4040,"y":966,"width":500,"height":220,"color":"#bac2cf"},
-		{"id":"d51c9facc19c5b79","type":"file","file":"Clang.md","x":4040,"y":110,"width":500,"height":182,"color":"#c7e6e1"},
-		{
-			"id":"e6226ca6768f3ff9",
-			"type":"text",
-			"text":"# Single-pass Assembler",
-			"styleAttributes":{},
-			"x":1808,
-			"y":1525,
-			"width":265,
-			"height":120,
-			"color":"#ba8787"
-		},
-		{"id":"c86fc38f54c68bb9","type":"file","file":"Pre-Processer.md","x":2240,"y":-10,"width":360,"height":256,"color":"#94b3ad"},
-		{"id":"65174277f556e02f","type":"file","file":"Assembler.md","x":2040,"y":1166,"width":400,"height":149,"color":"#97b1b5"},
-		{
-			"id":"7f1e5841e20803b9",
-			"type":"text",
-			"text":"# Multi-pass Assembler",
-			"styleAttributes":{},
-			"x":2465,
-			"y":1525,
-			"width":270,
-			"height":120,
-			"color":"#dfbfbf"
-		},
-		{"id":"f3bd9d011f62e0fe","type":"file","file":"Linker.md","x":2420,"y":1900,"width":360,"height":230,"color":"#c4b8d6"},
-		{"id":"b4b9cf7caf1dce0b","type":"file","file":"Parser.md","x":3640,"y":554,"width":500,"height":220,"color":"#dcbbdd"},
 		{"id":"3366d736f1c0064b","type":"file","file":"C/Introduction.md","x":80,"y":-488,"width":560,"height":696,"color":"#8f98bc"},
 		{"id":"bbe3d50ab519dc22","type":"file","file":"C/Importing(Simple).md","x":-1000,"y":-270,"width":440,"height":260,"color":"#81849c"},
 		{
@@ -75,36 +46,79 @@
 			"height":120,
 			"color":"3"
 		},
-		{"id":"796bab17a5949126","type":"file","file":"Compile Time Errors.md","x":5080,"y":1380,"width":400,"height":260,"color":"#7a8d90"},
-		{"id":"7acd3aeef8b1ffee","type":"file","file":"Run Time Errors.md","x":5080,"y":1800,"width":400,"height":380,"color":"#97a1b5"},
-		{"id":"6f3df89ad27d87cb","type":"file","file":"Linker Errors.md","x":5080,"y":2300,"width":400,"height":260,"color":"#cdd4e4"},
-		{"id":"fc7d59cef1e184ba","type":"file","file":"Logical Errors.md","x":5080,"y":2665,"width":400,"height":340,"color":"#c3d3bb"},
-		{"id":"9a60994f6f22a7f3","type":"file","file":"Undefined Behaviour (Errors).md","x":5080,"y":3120,"width":400,"height":300,"color":"#a5b3c0"},
-		{"id":"11a4e20739105055","type":"file","file":"Preprocessor Errors.md","x":5080,"y":3520,"width":400,"height":245,"color":"#c6a3d7"},
-		{"id":"c75fd400615c85ab","type":"file","file":"Errors.md","x":3690,"y":2565,"width":520,"height":120,"color":"1"},
+		{"id":"3fd7bc5616c74267","type":"file","file":"C/C compiler.md","x":2680,"y":495,"width":500,"height":338,"color":"#9796b0"},
+		{"id":"b442730f1dbd39fc","type":"file","file":"C/GCC.md","x":4040,"y":966,"width":500,"height":220,"color":"#bac2cf"},
+		{"id":"d51c9facc19c5b79","type":"file","file":"C/Clang.md","x":4040,"y":110,"width":500,"height":182,"color":"#c7e6e1"},
+		{
+			"id":"e6226ca6768f3ff9",
+			"type":"text",
+			"text":"# Single-pass Assembler",
+			"styleAttributes":{},
+			"x":1808,
+			"y":1525,
+			"width":265,
+			"height":120,
+			"color":"#ba8787"
+		},
+		{"id":"c86fc38f54c68bb9","type":"file","file":"C/Pre-Processer.md","x":2240,"y":-10,"width":360,"height":256,"color":"#94b3ad"},
+		{"id":"65174277f556e02f","type":"file","file":"C/Assembler.md","x":2040,"y":1166,"width":400,"height":149,"color":"#97b1b5"},
+		{
+			"id":"7f1e5841e20803b9",
+			"type":"text",
+			"text":"# Multi-pass Assembler",
+			"styleAttributes":{},
+			"x":2465,
+			"y":1525,
+			"width":270,
+			"height":120,
+			"color":"#dfbfbf"
+		},
+		{"id":"f3bd9d011f62e0fe","type":"file","file":"C/Linker.md","x":2420,"y":1900,"width":360,"height":230,"color":"#c4b8d6"},
+		{"id":"b4b9cf7caf1dce0b","type":"file","file":"C/Parser.md","x":3640,"y":554,"width":500,"height":220,"color":"#dcbbdd"},
+		{"id":"7acd3aeef8b1ffee","type":"file","file":"C/Run Time Errors.md","x":5080,"y":1800,"width":400,"height":380,"color":"#97a1b5"},
+		{"id":"6f3df89ad27d87cb","type":"file","file":"C/Linker Errors.md","x":5080,"y":2300,"width":400,"height":260,"color":"#cdd4e4"},
+		{"id":"fc7d59cef1e184ba","type":"file","file":"C/Logical Errors.md","x":5080,"y":2665,"width":400,"height":340,"color":"#c3d3bb"},
+		{"id":"9a60994f6f22a7f3","type":"file","file":"C/Undefined Behaviour (Errors).md","x":5080,"y":3120,"width":400,"height":300,"color":"#a5b3c0"},
+		{"id":"c75fd400615c85ab","type":"file","file":"C/Errors (Only the important ones).md","x":3690,"y":2565,"width":520,"height":175,"color":"1"},
+		{"id":"63af9fd2345fe847","type":"file","file":"C/Segmentation Fault.md","x":6720,"y":1840,"width":440,"height":300,"color":"#e19d9d"},
+		{"id":"8fa096482b603028","type":"file","file":"C/NaN Error.md","x":6660,"y":3420,"width":300,"height":203},
+		{"id":"11a4e20739105055","type":"file","file":"C/Preprocessor Errors.md","x":5080,"y":3520,"width":400,"height":245,"color":"#c6a3d7"},
+		{"id":"ebc677ff7a59f5f7","type":"file","file":"C/Bus Errors.md","x":7160,"y":2180,"width":440,"height":220,"color":"#b2a4b7"},
+		{"id":"f4b42d2cf30143fc","type":"file","file":"C/Memory Leak.md","x":7600,"y":2480,"width":440,"height":240,"color":"#a88a8a"},
+		{"id":"4590aba48ed41ff4","type":"file","file":"C/Dangling Error.md","x":8040,"y":2780,"width":440,"height":260,"color":"#a9aac6"},
+		{"id":"26bee14464ee94d4","type":"file","file":"C/Double Free Error.md","x":8480,"y":3120,"width":440,"height":260,"color":"#cfabab"},
+		{"id":"9a64cb6ce248bc9a","type":"file","file":"C/Division by zero.md","x":6040,"y":2405,"width":320,"height":220,"color":"#ab8282"},
+		{"id":"20c15e342c94738d","type":"file","file":"C/Integer Overflow.md","x":6040,"y":2890,"width":420,"height":360,"color":"#9681b6"},
+		{"id":"14394430b6aeff31","type":"file","file":"C/Floating point errors.md","x":6040,"y":3300,"width":420,"height":140,"color":"#baded8"},
+		{"id":"eb0ee610b10f4b24","type":"file","file":"C/Precision Error.md","x":6660,"y":3020,"width":300,"height":320,"color":"#a5c0bb"},
+		{"id":"796bab17a5949126","type":"file","file":"C/Compile Time Errors.md","x":5080,"y":1480,"width":400,"height":260,"color":"#7a8d90"},
+		{"id":"fcf89858911c8d98","type":"file","file":"C/Syntax Error.md","x":9120,"y":1620,"width":380,"height":220,"color":"#97b8bf"},
+		{"id":"ff4bbf09565ce078","type":"file","file":"C/Semantic Error.md","x":9500,"y":1980,"width":400,"height":260},
+		{
+			"id":"65f7a50c022f6da7",
+			"type":"text",
+			"text":"# Do note that these are just the ERRORS, not solutions to these ERRORS.\nYou must solve them on your own",
+			"styleAttributes":{},
+			"x":8640,
+			"y":1800,
+			"width":480,
+			"height":262
+		},
 		{
 			"id":"5950de321c3f8748",
 			"type":"text",
 			"text":"Types of errors",
 			"styleAttributes":{
-				"border":null,
-				"shape":null
+				"border":"dotted",
+				"shape":null,
+				"textAlign":"center"
 			},
 			"x":4500,
-			"y":2595,
+			"y":2623,
 			"width":260,
 			"height":60
 		},
-		{"id":"63af9fd2345fe847","type":"file","file":"Segmentation Fault.md","x":6720,"y":1840,"width":440,"height":300,"color":"#e19d9d"},
-		{"id":"ebc677ff7a59f5f7","type":"file","file":"Bus Errors.md","x":7160,"y":2180,"width":440,"height":220,"color":"#b2a4b7"},
-		{"id":"f4b42d2cf30143fc","type":"file","file":"Memory Leak.md","x":7600,"y":2480,"width":440,"height":240,"color":"#a88a8a"},
-		{"id":"4590aba48ed41ff4","type":"file","file":"Dangling Error.md","x":8040,"y":2780,"width":440,"height":260,"color":"#a9aac6"},
-		{"id":"26bee14464ee94d4","type":"file","file":"Double Free Error.md","x":8480,"y":3120,"width":440,"height":260,"color":"#cfabab"},
-		{"id":"9a64cb6ce248bc9a","type":"file","file":"Division by zero.md","x":6040,"y":2405,"width":320,"height":220,"color":"#ab8282"},
-		{"id":"20c15e342c94738d","type":"file","file":"Integer Overflow.md","x":6040,"y":2890,"width":420,"height":360,"color":"#9681b6"},
-		{"id":"14394430b6aeff31","type":"file","file":"Floating point errors.md","x":6040,"y":3300,"width":420,"height":140,"color":"#baded8"},
-		{"id":"eb0ee610b10f4b24","type":"file","file":"Precision Error.md","x":6660,"y":3020,"width":300,"height":320,"color":"#a5c0bb"},
-		{"id":"8fa096482b603028","type":"file","file":"NaN Error.md","x":6660,"y":3420,"width":300,"height":203}
+		{"id":"685b6e0f07fad77c","type":"file","file":"C/Flags.md","x":340,"y":480,"width":500,"height":680,"color":"#c1a5cf"}
 	],
 	"edges":[
 		{
@@ -511,6 +525,24 @@
 			"fromNode":"14394430b6aeff31",
 			"fromSide":"right",
 			"toNode":"8fa096482b603028",
+			"toSide":"left"
+		},
+		{
+			"id":"ee55a06c8b075a37",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"796bab17a5949126",
+			"fromSide":"right",
+			"toNode":"fcf89858911c8d98",
+			"toSide":"left"
+		},
+		{
+			"id":"0793847b6f2e834b",
+			"toFloating":false,
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"fromNode":"796bab17a5949126",
+			"fromSide":"right",
+			"toNode":"ff4bbf09565ce078",
 			"toSide":"left"
 		}
 	],
